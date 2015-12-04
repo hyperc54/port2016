@@ -1,0 +1,11 @@
+body{
+background-color:#6594fe;
+}
+
+#canvas{
+display:block;
+width:70%;
+margin-top:-10px;
+margin-left:auto;
+margin-right:auto;
+}
