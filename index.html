@@ -10,16 +10,21 @@
  <title>
   Portfolio - Pierre THARY
  </title>
- <script type="text/javascript" src="js/paper.js"></script>
- <script type="text/javascript" src="js/math.js"></script>
- <script type="text/paperscript" src="js/script_draft.js" canvas="canvas"></script>
+
 </head>
 <body>
 	<canvas id="canvas" style="background-color:black;" resize></canvas>
 	
 </body>
 
-
+ <script type="text/javascript" src="js/paper.js"></script>
+ <script type="text/javascript">
+		// Get a reference to the canvas object
+		var canvas = document.getElementById('canvas');
+		// Create an empty project and a view for the canvas:
+		paper.setup(canvas);
+ </script>
+ <script type="text/javascript" src="js/corde.js"></script>
 
 
 </html>
